@@ -1,0 +1,56 @@
+/*! Hide assistive link */
+ .skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000000;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/*!
+ * Website specific styles
+ */
+
+.output {
+	word-wrap: break-word!important;
+	white-space: pre-wrap!important;
+	white-space: -moz-pre-wrap!important;
+	white-space: -pre-wrap!important;
+	white-space:-o-pre-wrap!important;
+}
+div.output {
+	word-wrap: break-word!important;
+	-webkit-nbsp-mode: space!important;
+	line-break: after-white-space!important;
+	-webkit-user-modify: read-write!important;
+}
+
+textarea#textIn {
+	background-color: #f3f3f4;
+	height: fit-content;
+}
+
+textarea#textIn::placeholder {
+	color: #0d0c22;
+	font-size: 1.2rem;
+}
+
+textarea#textIn:hover {
+	background-color: #ffffff;
+	border: 1px solid #80bdff;
+	box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+}
+
+textarea#textIn:focus, textarea#textIn:active {
+	background-color: #ffffff;
+}
+
+.btncopy {
+	min-width: 100px;
+}
